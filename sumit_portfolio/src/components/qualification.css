@@ -1,0 +1,93 @@
+/* src/Qualifications.css */
+.decorative-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem;
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    display: block; /* Change to block to center the title */
+    text-align: center; /* Remove quotes around center */
+    max-width: 80%;
+    margin: 0 auto; /* This will center the title horizontally */
+    
+    @media (max-width: 768px) {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+      padding: 8px 16px; /* Adjust padding for smaller screens */
+    }
+  }
+  
+  .decorative-title:before,
+  .decorative-title:after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 50%;
+    background-color: #333;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .decorative-title:before {
+    left: -50%;
+  }
+  
+  .decorative-title:after {
+    right: -50%;
+  }
+
+.card-body {
+    padding: 0;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .card-subtitle {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .card-text {
+    font-size: 0.9rem;
+  }
+  
+  ul {
+    padding-left: 20px;
+    list-style-type: disc;
+  }
+  
+  li {
+    font-size: 0.9rem;
+  }
+  
+  .img-fluid {
+    max-width: 100px; /* Adjust the width to your preference */
+    margin-right: 15px; /* Adjust the margin to your preference */
+  }
+  
+  .card-qualification {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-img {
+    max-width: 150px; /* Adjust the width to your preference */
+    margin-right: 20px;
+  }
+  
+  .ml-3 {
+    margin-left: 20px;
+  }
+  
+  

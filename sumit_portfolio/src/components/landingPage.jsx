@@ -5,6 +5,7 @@ import { Nav, Navbar, Container } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faGraduationCap, faEnvelope, faBriefcase, faProjectDiagram, faDownload } from '@fortawesome/free-solid-svg-icons';
 import Home from "./home";
+import Qualification from "./qualification";
 
 export default function LandingPage() {
 
@@ -45,8 +46,8 @@ export default function LandingPage() {
     switch (selectedLink) {
       case "home":
         return <Home />
-      // case "aboutus": 
-      //   return <AboutUs/>
+      case "qualification": 
+        return <Qualification/>
       // case "contactus":
       //     return <ContactUs/>
       // case "signin":
