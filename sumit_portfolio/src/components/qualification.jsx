@@ -3,7 +3,7 @@ import './qualification.css'
 const qualifications = [
     {
         image:'cdac_logo.png',
-        degree: "PG-DAC [Post-Graduate Diploma in Advance Computing]",
+        degree: "Post-Graduate Diploma in Advance Computing [PG-DAC]",
         institution: "CDAC,Pune",
         year: "Sept 2023 - Feb 2024",
         description: "Graduated with First Class Honours, with a focus on software development and data structures."

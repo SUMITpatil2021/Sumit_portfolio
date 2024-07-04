@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faGraduationCap, faEnvelope, faBriefcase, faProjectDiagram, faDownload } from '@fortawesome/free-solid-svg-icons';
 import Home from "./home";
 import Qualification from "./qualification";
+import ProjectCompo from "./projectCompo";
 
 export default function LandingPage() {
 
@@ -48,8 +49,8 @@ export default function LandingPage() {
         return <Home />
       case "qualification": 
         return <Qualification/>
-      // case "contactus":
-      //     return <ContactUs/>
+      case "projects":
+          return <ProjectCompo/>
       // case "signin":
       //   return <UserLogin/>
       default:

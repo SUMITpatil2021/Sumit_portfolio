@@ -17,7 +17,6 @@ const Home = () => {
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">
-                        <h2 className="card-title">About Me</h2>
                         <p className="card-text">
                             Hello! I'm Sumit, an aspiring full-stack developer with a passion for creating dynamic and responsive web applications. I hold a CDAC certification, which has equipped me with a strong foundation in software development and the latest web technologies.
                         </p>
@@ -27,7 +26,7 @@ const Home = () => {
                         <p className="card-text">
                             Welcome to my portfolio. Feel free to explore my projects and get in touch with me.
                         </p>
-                        <button className="btn btn-primary">Get in Touch</button>
+                        {/* <button className="btn btn-primary">Get in Touch</button> */}
                     </div>
                 </div>
             </div>
