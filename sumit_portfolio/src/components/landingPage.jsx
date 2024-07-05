@@ -3,11 +3,12 @@ import { Link } from "react-scroll";
 import { useNavigate, Routes } from "react-router-dom";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faGraduationCap, faEnvelope, faBriefcase, faProjectDiagram, faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faGraduationCap, faEnvelope, faBriefcase,faCode, faProjectDiagram, faDownload } from '@fortawesome/free-solid-svg-icons';
 import Home from "./home";
 import Qualification from "./qualification";
 import ProjectCompo from "./projectCompo";
 import ContactCompo from "./contactCompo";
+import Skills from "./skills";
 
 export default function LandingPage() {
 
@@ -52,6 +53,8 @@ export default function LandingPage() {
         return <Qualification/>
       case "projects":
           return <ProjectCompo/>
+          case "skills":
+            return <Skills/>
       case "contactus":
         return <ContactCompo/>
       default:
@@ -77,7 +80,11 @@ export default function LandingPage() {
                   &nbsp;Qualification </Nav.Link>
                 <Nav.Link onClick={() => { handleLinkClick('workexp') }}>
                   <FontAwesomeIcon icon={faBriefcase} />
-                  &nbsp;Work Experience </Nav.Link>
+                  &nbsp;Work Experience </Nav.Link> 
+
+                  <Nav.Link onClick={() => { handleLinkClick('skills') }}>
+                  <FontAwesomeIcon icon={faCode}  />
+                  &nbsp;Skills </Nav.Link>
 
                 <Nav.Link onClick={() => { handleLinkClick('projects') }}>
                   <FontAwesomeIcon icon={faProjectDiagram} />
