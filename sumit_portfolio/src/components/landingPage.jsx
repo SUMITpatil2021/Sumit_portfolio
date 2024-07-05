@@ -7,6 +7,7 @@ import { faUser, faGraduationCap, faEnvelope, faBriefcase, faProjectDiagram, faD
 import Home from "./home";
 import Qualification from "./qualification";
 import ProjectCompo from "./projectCompo";
+import ContactCompo from "./contactCompo";
 
 export default function LandingPage() {
 
@@ -51,8 +52,8 @@ export default function LandingPage() {
         return <Qualification/>
       case "projects":
           return <ProjectCompo/>
-      // case "signin":
-      //   return <UserLogin/>
+      case "contactus":
+        return <ContactCompo/>
       default:
         return null;
     }

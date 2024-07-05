@@ -1,0 +1,53 @@
+/* ContactUs.css */
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.contact-title {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.icon-link {
+    margin: 15px;
+    transition: transform 0.3s, color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-link:hover {
+    transform: scale(1.2);
+    color: #ff6347; /* Tomato color for hover effect */
+}
+
+.envelope-icon {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    background-color: #d93025; /* Gmail red color */
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 50% 100%, 0 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.envelope-icon:hover {
+    transform: scale(1.2) rotate(10deg);
+}
+
+.envelope-icon svg {
+    color: white;
+}
