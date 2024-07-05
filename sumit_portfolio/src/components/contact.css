@@ -1,5 +1,7 @@
 /* ContactUs.css */
 
+/* ContactUs.css */
+
 .contact-container {
     display: flex;
     flex-direction: column;
@@ -50,4 +52,82 @@
 
 .envelope-icon svg {
     color: white;
+}
+
+/* FontAwesome Icons */
+.fa {
+    font-size: 2rem; /* Adjust icon size as needed */
+}
+
+/* Specific icon styles */
+.fa.instagram-icon {
+    color: #c13584; /* Instagram brand color */
+}
+
+.fa.twitter-icon {
+    color: #1da1f2; /* Twitter brand color */
+}
+
+.fa.linkedin-icon {
+    color: #0077b5; /* LinkedIn brand color */
+}
+
+.fa.youtube-icon {
+    color: #ff0000; /* YouTube brand color */
+}
+
+.fa.blogger-icon {
+    color: #f57d00; /* Blogger brand color */
+}
+
+.fa.envelope-icon {
+    color: white; /* Adjust email icon color if needed */
+}
+
+.github-icon {
+    color: #181717; /* GitHub brand color */
+}
+
+
+
+/* ContactUs.css */
+
+.contactContainer {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.subHeading {
+    color: #495057;
+    margin-bottom: 15px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #495057;
+}
+
+.form-control {
+    border-radius: 5px;
+    border-color: #ced4da;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.textarea {
+    /* Additional textarea specific styles */
+    min-height: 150px; /* Adjust as needed */
+    resize: vertical; /* Allow vertical resizing */
 }
