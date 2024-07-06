@@ -11,8 +11,8 @@ const Home = () => {
             <div className="row align-items-center">
                 <div className="col-md-4 col-sm-6 col-xs-12 mb-3 mb-md-0">
                     <img
-                        src="Sumit_ID_Photo.png"
-                        alt="Sumit ID Photo"
+                        src="Sumit_ID_Photo.png"  
+                        alt="profilepic"              
                         className="id-photo img-fluid rounded-circle shadow border-2 border-primary"
                         style={{ width: 'auto', height: 'auto' }}
                     />

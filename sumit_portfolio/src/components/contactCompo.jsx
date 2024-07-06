@@ -25,8 +25,8 @@ export default function ContactCompo() {
             .then((result) => {
                 console.log(result.text);
                 Swal.fire({
-                    title: 'Trek',
-                    text: 'Your Message sent ',
+                    title: 'Done',
+                    text: 'Your Message sent successfully ',
                     icon: 'success',
                 });
             }, (error) => {
