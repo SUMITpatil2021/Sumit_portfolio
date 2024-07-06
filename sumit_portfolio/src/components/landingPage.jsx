@@ -1,5 +1,4 @@
 import React, { useEffect,  useState } from "react";
-import { useNavigate,  } from "react-router-dom";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faGraduationCap, faEnvelope, faCode, faProjectDiagram, faDownload } from '@fortawesome/free-solid-svg-icons';
