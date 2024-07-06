@@ -4,7 +4,10 @@ import Swal from 'sweetalert2';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faYoutube, faBlogger, faLinkedin, faInstagram, faTwitter,faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { BsTwitterX } from "react-icons/bs";
 import './contact.css'
+import { TbMailCode } from "react-icons/tb";
+
 
 export default function ContactCompo() {
 
@@ -54,7 +57,7 @@ export default function ContactCompo() {
                     <div className="row justify-content-center">
                         <div className="col-lg-8 col-md-10">
                             <div className="card shadow-sm p-4">
-                                <h4 className="subHeading mb-4">Send Me Message</h4>
+                                <h4 className="subHeading mb-4">Get in Touch with Me <TbMailCode/> </h4>
                                 <form onSubmit={handleSubmit}>
                                     <div className="mb-3">
                                         <label htmlFor="name" className="form-label">Name</label>
@@ -113,28 +116,7 @@ export default function ContactCompo() {
                             </div>
                         </div>
                     </div>
-                    <div className="icon-container">
-                        <a href="https://www.linkedin.com/in/sumit-patil-08b163191" target="_blank" rel="noopener noreferrer" className="icon-link">
-                            <FontAwesomeIcon icon={faLinkedin} className="fa linkedin-icon" size="2x" />
-                        </a>
-                        <a href="https://www.youtube.com/channel/UCO2nMMkQBxszjqHm4V2SVnA" target="_blank" rel="noopener noreferrer" className="icon-link">
-                            <FontAwesomeIcon icon={faYoutube} className="fa youtube-icon" size="2x" />
-                        </a>
-                        <a href="https://swarajyatechh.blogspot.com/" target="_blank" rel="noopener noreferrer" className="icon-link">
-                            <FontAwesomeIcon icon={faBlogger} className="fa blogger-icon" size="2x" />
-                        </a> 
-                        <a href="https://www.instagram.com/sumitpatil2021" target="_blank" rel="noopener noreferrer" className="icon-link">
-                            <FontAwesomeIcon icon={faInstagram} className="fa instagram-icon" size="2x" />
-                        </a>
-                        <a href="https://twitter.com/sumitpatil2021" target="_blank" rel="noopener noreferrer" className="icon-link">
-                            <FontAwesomeIcon icon={faTwitter} className="fa twitter-icon" size="2x" />
-                        </a> 
-                        <a href="https://github.com/SUMITpatil2021" target="_blank" rel="noopener noreferrer" className="icon-link">
-                    <FontAwesomeIcon icon={faGithub} className="fa github-icon" size="2x" />
-                </a>
-
-
-                    </div>
+                  
                 </div>
             </div>
         </>

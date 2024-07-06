@@ -3,12 +3,17 @@ import { Link } from "react-scroll";
 import { useNavigate, Routes } from "react-router-dom";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faGraduationCap, faEnvelope, faBriefcase,faCode, faProjectDiagram, faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faGraduationCap, faEnvelope, faCode, faProjectDiagram, faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faYoutube, faBlogger, faLinkedin, faInstagram, faTwitter,faGithub } from '@fortawesome/free-brands-svg-icons';
+import { BsTwitterX } from "react-icons/bs";
+
+
 import Home from "./home";
 import Qualification from "./qualification";
 import ProjectCompo from "./projectCompo";
 import ContactCompo from "./contactCompo";
 import Skills from "./skills";
+
 
 export default function LandingPage() {
 
@@ -51,6 +56,7 @@ export default function LandingPage() {
         return <Home />
       case "qualification": 
         return <Qualification/>
+      
       case "projects":
           return <ProjectCompo/>
           case "skills":
@@ -78,10 +84,6 @@ export default function LandingPage() {
                 <Nav.Link onClick={() => { handleLinkClick('qualification') }}>
                   <FontAwesomeIcon icon={faGraduationCap} />
                   &nbsp;Qualification </Nav.Link>
-                <Nav.Link onClick={() => { handleLinkClick('workexp') }}>
-                  <FontAwesomeIcon icon={faBriefcase} />
-                  &nbsp;Work Experience </Nav.Link> 
-
                   <Nav.Link onClick={() => { handleLinkClick('skills') }}>
                   <FontAwesomeIcon icon={faCode}  />
                   &nbsp;Skills </Nav.Link>
@@ -103,8 +105,44 @@ export default function LandingPage() {
 
       <div>
         {renderComponent()}
-      </div>
+      </div> 
+
+      <div style={footerBottomStyle}>
+      <div className="icon-container">
+     
+                        <a href="https://www.linkedin.com/in/sumit-patil-08b163191" target="_blank" rel="noopener noreferrer" className="icon-link">
+                            <FontAwesomeIcon icon={faLinkedin} className="fa linkedin-icon" size="2x" />
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCO2nMMkQBxszjqHm4V2SVnA" target="_blank" rel="noopener noreferrer" className="icon-link">
+                            <FontAwesomeIcon icon={faYoutube} className="fa youtube-icon" size="2x" />
+                        </a>
+                        <a href="https://swarajyatechh.blogspot.com/" target="_blank" rel="noopener noreferrer" className="icon-link">
+                            <FontAwesomeIcon icon={faBlogger} className="fa blogger-icon" size="2x" />
+                        </a> 
+                        <a href="https://www.instagram.com/sumitpatil2021" target="_blank" rel="noopener noreferrer" className="icon-link">
+                            <FontAwesomeIcon icon={faInstagram} className="fa instagram-icon" size="2x" />
+                        </a>
+                        <a href="https://twitter.com/sumitpatil2021" target="_blank" rel="noopener noreferrer" className="icon-link">
+                            {/* <FontAwesomeIcon icon={faTwitter} className="fa twitter-icon" size="2x" /> */}
+                            <span className="fa twitter-icon"> <BsTwitterX /></span> 
+                        </a> 
+                        <a href="https://github.com/SUMITpatil2021" target="_blank" rel="noopener noreferrer" className="icon-link">
+                    <FontAwesomeIcon icon={faGithub} className="fa github-icon" size="2x" />
+                   
+                </a>
+
+
+                    </div>       
+        <p>&copy; 2024 Sumit Patil | All rights reserved.</p>
+    </div>
 
     </>
   )
 }
+
+const footerBottomStyle = {
+  textAlign: 'center',
+  padding: '10px 0',
+  borderTop: '1px solid #495057',
+  marginTop: '20px'
+};

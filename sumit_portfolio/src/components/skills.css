@@ -54,6 +54,9 @@
     color: #2965f1; /* CSS color */
 }
 
+.tech-stack-icons .icon-bootstrap i {
+    color: #7952B3; /* Bootstrap color */
+}
 .tech-stack-icons .icon-react svg {
     color: #61dafb; /* React color */
 }
@@ -62,16 +65,23 @@
     color: #007396; /* Java color */
 }
 
-.tech-stack-icons .icon-python svg {
-    color: #3776ab; /* Python color */
-}
 
+.tech-stack-icons .icon-springboot svg {
+    color: #6DB33F; /* Default Spring Boot color */
+}
+.tech-stack-icons .icon-dotnet svg {
+    color: #512BD4; /* .NET Framework brand color */
+}
 .tech-stack-icons .icon-nodejs svg {
     color: #68a063; /* Node.js color */
 }
 
 .tech-stack-icons .icon-mysql svg {
     color: #00758f; /* MySQL color */
+}
+
+.tech-stack-icons .icon-mongodb svg {
+    color: #589636; /* MySQL color */
 }
 
 .tech-stack-icons .icon-git svg {
@@ -85,10 +95,14 @@
 .tech-stack-icons .icon-docker svg {
     color: #2496ed; /* Docker color */
 }
-.tech-stack-icons .icon-bootstrap i {
-    color: #7952b3; /* Bootstrap color */
+.tech-stack-icons .icon-postman svg {
+    color: #FF6C37; /* Postman brand color */
 }
 
-.icon-mysql .mysql-icon {
-    color: #00758f; /* MySQL color */
+.tech-stack-icons .icon-swagger svg {
+    color: #85EA2D; /* Swagger brand color */
 }
+
+
+
+

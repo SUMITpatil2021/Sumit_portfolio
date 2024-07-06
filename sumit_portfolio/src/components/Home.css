@@ -30,6 +30,48 @@
     color: #666;
     margin-bottom: 25px;
   }
+
+  .title-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    animation: fadeInDown 1s ease-in-out;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    color: #6c757d;
+    margin: 0;
+    animation: fadeInUp 1.5s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
   
   /* Responsive styles */
   
@@ -74,3 +116,9 @@
      }
    }
    
+
+   .laptop-icon {
+    font-size: 3rem;
+    color: #512BD4; /* Brand color */
+    animation: bounceIn 1s ease-in-out;
+}
