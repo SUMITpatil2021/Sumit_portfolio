@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHtml5, faCss3Alt, faReact, faJava, faPython, faNode, faGitAlt, faGithub, faDocker } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faReact, faJava,  faNode, faGitAlt, faGithub, faDocker } from '@fortawesome/free-brands-svg-icons';
 import { SiSpringboot,SiBootstrap,SiMysql,SiMongodb ,SiPostman ,SiSwagger  } from "react-icons/si";
 import { DiDotnet } from "react-icons/di";
 

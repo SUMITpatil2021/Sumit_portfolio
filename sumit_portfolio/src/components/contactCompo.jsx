@@ -1,10 +1,7 @@
 import React, { useState } from "react";
 import emailjs from 'emailjs-com';
 import Swal from 'sweetalert2';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faYoutube, faBlogger, faLinkedin, faInstagram, faTwitter,faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { BsTwitterX } from "react-icons/bs";
+
 import './contact.css'
 import { TbMailCode } from "react-icons/tb";
 

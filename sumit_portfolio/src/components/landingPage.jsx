@@ -1,10 +1,9 @@
-import React, { useEffect, useRef, useState } from "react";
-import { Link } from "react-scroll";
-import { useNavigate, Routes } from "react-router-dom";
+import React, { useEffect,  useState } from "react";
+import { useNavigate,  } from "react-router-dom";
 import { Nav, Navbar, Container } from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faGraduationCap, faEnvelope, faCode, faProjectDiagram, faDownload } from '@fortawesome/free-solid-svg-icons';
-import { faYoutube, faBlogger, faLinkedin, faInstagram, faTwitter,faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube, faBlogger, faLinkedin, faInstagram, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { BsTwitterX } from "react-icons/bs";
 
 
@@ -19,7 +18,7 @@ export default function LandingPage() {
 
 
 
-  const Navigate = useNavigate();
+
   const [selectedLink, setSelectedLink] = useState("home");
 
   const handleDownload = () => {
